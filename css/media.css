@@ -54,6 +54,15 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    #works:before{
+
+        height: 100%;
+    }
+    .line:before{
+        display: none;
+    }
+    .works-list-title span {
+        color: white;}
     .block {
         display: flex;
         flex-wrap: nowrap;
@@ -94,15 +103,7 @@
         font-size: 14px;
         line-height: 24px;
     }
-    #works:before{
 
-        height: 100%;
-    }
-    .line:before{
-        display: none;
-    }
-    .works-list-title span {
-        color: white;}
     .project-title {
         font-size: 30px;
         padding: 75px 0 45px;}
